@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewFotoEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/destLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textAlignment="center">
+
+                <EditText
+                    android:id="@+id/EditTxtNombreEquipoDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="NOMBRE EQUIPO"
+                    android:maxLines="1"
+                    android:textAlignment="center" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/marcaEquipoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textAlignment="center">
+
+                <EditText
+                    android:id="@+id/EditTxtMarcaEquipoDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="MARCA EQUIPO"
+                    android:maxLines="1"
+                    android:textAlignment="center" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/modeloEquipoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center">
+
+            <EditText
+                android:id="@+id/EditTxtModeloEquipoDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="MODELO EQUIPO"
+                android:maxLines="1"
+                android:textAlignment="center" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/capacidadEquipoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center">
+
+            <EditText
+                android:id="@+id/EditTxtCapacidadEquipoDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CAPACIDAD EQUIPO"
+                android:maxLines="1"
+                android:textAlignment="center" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/anioEquipoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textAlignment="center">
+
+                <EditText
+                    android:id="@+id/EditTxtAnioEquipoDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="AÑO EQUIPO"
+                    android:maxLines="1"
+                    android:textAlignment="center" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/placaEquipoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textAlignment="center">
+
+                <EditText
+                    android:id="@+id/EditTxtPlacaEquipoDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="PLACA EQUIPO"
+                    android:maxLines="1"
+                    android:textAlignment="center" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/colorEquipoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textAlignment="center">
+
+                <EditText
+                    android:id="@+id/EditTxtColorEquipoDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="COLOR EQUIPO"
+                    android:maxLines="1"
+                    android:textAlignment="center" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/codigoEquipoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textAlignment="center">
+
+                <EditText
+                    android:id="@+id/EditTxtCodigoEquipoDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="CODIGO EQUIPO"
+                    android:maxLines="1"
+                    android:textAlignment="center" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/chkEstadoEquipoDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="Estado"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/BtnChooseImagenEquipo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="Escoge una Imagen"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnGuardarEquipo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="GUARDAR"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnEliminarEquipo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="ELIMINAR"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

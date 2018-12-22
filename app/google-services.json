@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "88510307815",
+    "firebase_url": "https://gtslsacapp.firebaseio.com",
+    "project_id": "gtslsacapp",
+    "storage_bucket": "gtslsacapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88510307815:android:9f5b204d831b73ab",
+        "android_client_info": {
+          "package_name": "com.example.witch.gtslsac_app_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88510307815-th4f55aus3tu4gsmjhr4ksdbifv9br63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLy8ur2nXVoEw90r9sm6_3LyifHGubEHU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

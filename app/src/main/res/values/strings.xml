@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GTSLSAC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="FCM_PREF">com.example.witch.gtslsac_app_1.fcm_pref</string>
+    <string name="FCM_TOKEN">com.example.witch.gtslsac_app_1.fcm_token</string>
+    <string name="CUENTA_CON_TOKEN">com.example.witch.gtslsac_app_1.cuenta_con_token</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alquiler">Alquiler Activity</string>
+</resources>

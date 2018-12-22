@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">88510307815-th4f55aus3tu4gsmjhr4ksdbifv9br63.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gtslsacapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">88510307815</string>
+    <string name="google_api_key" translatable="false">AIzaSyDLy8ur2nXVoEw90r9sm6_3LyifHGubEHU</string>
+    <string name="google_app_id" translatable="false">1:88510307815:android:9f5b204d831b73ab</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDLy8ur2nXVoEw90r9sm6_3LyifHGubEHU</string>
+    <string name="google_storage_bucket" translatable="false">gtslsacapp.appspot.com</string>
+    <string name="project_id" translatable="false">gtslsacapp</string>
+</resources>

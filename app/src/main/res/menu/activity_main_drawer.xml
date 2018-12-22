@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="OPERACIONES">
+        <menu>
+            <item
+                android:id="@+id/nav_alquiler"
+                android:icon="@drawable/rental"
+                android:title="ALQUILER" />
+            <item
+                android:id="@+id/nav_mantenimiento"
+                android:icon="@drawable/maintenance"
+                android:title="MANTENIMIENTO" />
+        </menu>
+    </item>
+    <item android:title="GESTIONAR">
+        <menu>
+            <item
+                android:id="@+id/nav_equipos"
+                android:icon="@drawable/crane"
+                android:title="EQUIPOS" />
+            <item
+                android:id="@+id/nav_operadores"
+                android:icon="@drawable/operador"
+                android:title="OPERADORES" />
+            <item
+                android:id="@+id/nav_clientes"
+                android:icon="@drawable/cliente"
+                android:title="CLIENTES" />
+        </menu>
+    </item>
+
+    <item android:title="REPORTES">
+        <menu>
+            <item
+                android:id="@+id/nav_rep_operadores"
+                android:icon="@drawable/report"
+                android:title="OPERADORES" />
+            <item
+                android:id="@+id/nav_rep_equipos"
+                android:icon="@drawable/excel"
+                android:title="EQUIPOS" />
+        </menu>
+    </item>
+    <item android:title="SESION">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="CERRAR SESION" />
+
+        </menu>
+    </item>
+
+</menu>

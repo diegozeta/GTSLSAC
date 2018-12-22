@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageviewFotoOperador"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/NombreOperadorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtNombresOperadorDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NOMBRES DE OPERADOR"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ApellidosOperadorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtApellidosOperadorDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="APELLIDOS DE OPERADOR"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/chkEstadoOperadorDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="Estado"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/BtnChooseOperador"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="Escoge una Foto"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnGuardarOperador"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="GUARDAR"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnEliminarOperador"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="ELIMINAR"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorLoginBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.witch.gtslsac_app_1.Fragments.Reportes_Operador_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_titulo_reporte_operador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="15dp"
+            android:text="REPORTE OPERADORES"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorBackground"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <AutoCompleteTextView
+                android:id="@+id/autocomplete_reporte_operador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:hint="SELECCIONE UN OPERADOR"
+                android:singleLine="true" />
+
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/chk_periodo_reporte_operador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="PERIODO:"
+            android:textSize="18dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/txt_desde_reporte_operador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESDE"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorBackground"
+                android:textSize="20dp"
+                android:layout_weight="0.5"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_hasta_reporte_operador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HASTA"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorBackground"
+                android:textSize="20dp"
+                android:layout_weight="0.5"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_generar_reporte_operador"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="GENERAR REPORTE"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/btn_ver_reporte_operador"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackground"
+            android:clickable="true"
+            android:text="VER REPORTE"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.witch.gtslsac_app_1.Fragments.Clientes_fragment">
+    <!-- TODO: Update blank fragment layout -->
+    <view
+        android:id="@+id/pagerClientes"
+        class="android.support.v4.view.ViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" />
+
+    <SearchView
+        android:id="@+id/searchViewClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/cardview_light_background" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabClientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <include layout="@layout/clientes_tab_fragment" />
+
+</FrameLayout>
