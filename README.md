@@ -15,18 +15,19 @@ _Se requiere del lado del servidor para gestionar las peticiones solicitar a: **
 ## Construido con 🛠️
 
 _Back-End_
-* [MySql](http://www.dropwizard.io/1.0.2/docs/) - Como Gestor de base de datos
-* [Firebase](https://maven.apache.org/) - Como gestor de notificaciones
-* [PHP](https://rometools.github.io/rome/) - Para gestionar las peticiones de la App
+* [MySql](https://dev.mysql.com/doc/) - Como Gestor de base de datos
+* [Firebase](https://firebase.google.com/docs/guides/) - Como gestor de notificaciones
+* [PHP](http://php.net/docs.php) - Para gestionar las peticiones de la App
 
 _App_
-* [Java](http://www.dropwizard.io/1.0.2/docs/) - Para desarrollar la applicacion con android studio
-* [Volley](https://maven.apache.org/) - Librería utilizada para hacer las peticiones http al servidor
+* [Java](https://docs.oracle.com/javase/7/docs/api/) - Lenguaje nativo para desarrollar la app
+* [Android Studio](https://developer.android.com/docs/) - IDE de desarrollo 
+* [Volley](https://developer.android.com/training/volley/) - Librería utilizada para hacer las peticiones http al servidor
 * [Material Design](https://developer.android.com/design/material/?hl=es-419) - Usado para diseñar la interfaz de la aplicación
 
 ## Autores ✒️
 
 _Los Autores y colaboradores de este proyecto fueron:_
 
-* **Jorge Adolfo Febres Cabrera** - *Desarrollo e Implemantacion* - [Jorge Febres](https://github.com/Jorgefebres/)
-* **Darwin Jimmy Flores Quispe** - *Levantamiento de requisitos y Análisis* - [Darwin](#Darwin Jimmi)
+* **Jorge Adolfo Febres Cabrera** - *Análisis, Desarrollo e Implemantacion* - [Jorge Febres](https://github.com/Jorgefebres/)
+* **Darwin Jimmy Flores Quispe** - *Levantamiento de requisitos y Análisis* - [Darwin Flores](#Darwin-Jimmy-Flores)
