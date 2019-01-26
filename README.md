@@ -2,7 +2,7 @@
 
 _Aplicacion movil desarrollada para la empresa Gruas y Transportes San Lorenzo._
 
-_Visite el :_ **[GTSLSAC.com](http://www.gtslsac.com/)** _Sitio web de la empresa_
+_Visite el Sitio web de la empresa :_ **[GTSLSAC.com](http://www.gtslsac.com/)**
 
 ## Instalacion 🚀
 
