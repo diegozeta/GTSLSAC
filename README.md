@@ -10,7 +10,7 @@ _Requerir el apk_
 
 ## Pre-requisitos 📋
 
-_Se requiere del lado del servidor para gestionar las peticiones solicitar a: **[Mi correo en Outlook](http://www.gtslsac.com/)**_
+_Se requiere del lado del servidor para gestionar las peticiones solicitar a: **[Mi correo en Outlook](jorge_febres@outlook.com)**_
 
 ## Construido con 🛠️
 
